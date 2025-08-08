@@ -19,7 +19,7 @@ $provinces = $pdo->query("SELECT province_code, province_name FROM province WHER
 <body class="bg-light">
 <div class="container py-4">
   <h1 class="mb-3">ลงทะเบียนผู้ใช้</h1>
-  <form id="regForm" class="card p-3" method="post" action="register_handler.php" novalidate>
+  <form id="regForm" class="card p-3" method="post" action="./includes/register_handler.php" novalidate>
     <div class="row g-3">
       <!-- จังหวัด / อำเภอ / หน่วยงาน -->
       <div class="col-md-4">
