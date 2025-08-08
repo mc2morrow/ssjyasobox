@@ -111,9 +111,9 @@ try {
 
   // (A) บันทึก register (ไม่มี iv/recaptcha_score อีกต่อไป)
   $stmt = $pdo->prepare("
-    INSERT INTO register
-      (reg_prefix, reg_firstname, reg_lastname, reg_position, reg_cid, reg_email, reg_phone, hosp_code,
-      amphur_code, province_code, created_at)
+    INSERT INTO registers
+      (reg_prefix, reg_firstname, reg_lastname, reg_position, reg_cid, reg_email, reg_phone, reg_hcode,
+      reg_amphur, reg_province, reg_create_at)
     VALUES
       (:prefix, :f, :l, :pos, :idc, :em, :ph, :hc, :ac, :pc, NOW())
   ");
@@ -150,7 +150,8 @@ try {
   $pdo->commit();
 } catch (Throwable $ex) {
   $pdo->rollBack();
-  if (APP_DEBUG) badRequest('DB error: '.h($ex->getMessage()), 500);
+  //if (APP_DEBUG) badRequest('DB error: '.h($ex->getMessage()), 500);
+  echo 'Error: '. $ex->getMessage();
   badRequest('เกิดข้อผิดพลาดระหว่างบันทึกข้อมูล', 500);
 }
 
