@@ -5,20 +5,17 @@ require_once __DIR__.'/config/config.php';
 // preload จังหวัด
 $provinces = $pdo->query("SELECT province_code, province_name FROM province WHERE province_code like 35")->fetchAll();
 ?>
-<!doctype html>
-<html lang="th">
-<head>
-  <meta charset="utf-8">
-  <title>ลงทะเบียนผู้ใช้</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="./assets/fontawesome/css/all.min.css" rel="stylesheet">
-  <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="https://www.google.com/recaptcha/api.js?render=<?php echo htmlspecialchars(RECAPTCHA_SITE_KEY); ?>"></script>
-</head>
-<body class="bg-light">
+<?php
+// Header
+require './includes/header.php';
+?>
 <div class="container py-4">
-  <h1 class="mb-3">ลงทะเบียนผู้ใช้</h1>
+  <div class="text-bg-success p-3 rounded"><h3 class="text-center mx-auto">ลงทะเบียนผู้ใช้งาน</h3></div>
+  <div class="p-3">
+    <h4 class="text-center mb-1 mx-auto">ระบบสำรองข้อมูล HIS & F43</h4>
+    <h6 class="text-center mb-1 mx-auto">สำนักงานสาธารณสุขจังหวัดยโสธร</h6>
+  </div>
+  
   <form id="regForm" class="card p-3" method="post" action="./includes/register_handler.php" novalidate>
     <div class="row g-3">
       <!-- จังหวัด / อำเภอ / หน่วยงาน -->
@@ -106,7 +103,7 @@ $provinces = $pdo->query("SELECT province_code, province_name FROM province WHER
         <div class="invalid-feedback">รหัสผ่านไม่ผ่านเงื่อนไข</div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 mb-2">
         <label class="form-label">ยืนยันรหัสผ่าน</label>
         <input type="text" class="form-control" name="password_confirm" id="password_confirm" required>
         <div class="invalid-feedback">รหัสผ่านไม่ตรงกัน</div>
@@ -114,8 +111,9 @@ $provinces = $pdo->query("SELECT province_code, province_name FROM province WHER
 
       <input type="hidden" name="recaptcha_token" id="recaptcha_token">
 
-      <div class="col-12">
-        <button class="btn btn-primary" type="submit">สมัครสมาชิก</button>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <button class="btn btn-primary" type="submit">บันทึกข้อมูล</button>
+        <button class="btn btn-danger" type="submit">กลับหน้าหลัก</button>
       </div>
     </div>
   </form>
@@ -205,5 +203,8 @@ $provinces = $pdo->query("SELECT province_code, province_name FROM province WHER
     return true;
   }
 </script>
-</body>
-</html>
+
+<?php
+// Footer
+require './includes/footer.php';
+?>

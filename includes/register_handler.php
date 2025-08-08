@@ -88,7 +88,7 @@ $chk->execute([':h'=>$hosp_code, ':a'=>$amphur_code, ':p'=>$province_code]);
 if ((int)$chk->fetchColumn() === 0) badRequest('ข้อมูลหน่วยงานไม่สอดคล้อง');
 
 // 6) ห้าม username ซ้ำ
-$chk = $pdo->prepare("SELECT COUNT(*) FROM users WHERE username = :u");
+$chk = $pdo->prepare("SELECT COUNT(*) FROM users WHERE user_name = :u");
 $chk->execute([':u'=>$username]);
 if ((int)$chk->fetchColumn() > 0) badRequest('Username นี้ถูกใช้แล้ว');
 
@@ -106,33 +106,56 @@ $enc_phone = $crypto->encryptWithIv($phone,      $iv);
 $pwd_hash = password_hash($password, PASSWORD_BCRYPT);
 
 // 8) บันทึก
-$stmt = $pdo->prepare("
-  INSERT INTO users
-  (username, prefix, first_name_enc, last_name_enc, position_enc, idcard_enc, email_enc, phone_enc, iv,
-   password_hash, province_code, amphur_code, hosp_code, recaptcha_score, created_at)
-  VALUES
-  (:username, :prefix, :f, :l, :pos, :idc, :em, :ph, :iv,
-   :pwd, :pc, :ac, :hc, :score, NOW())
-");
-$stmt->execute([
-  ':username'=>$username,
-  ':prefix'=>$prefix,
-  ':f'=>$enc_first,
-  ':l'=>$enc_last,
-  ':pos'=>$enc_pos,
-  ':idc'=>$enc_id,
-  ':em'=>$enc_email,
-  ':ph'=>$enc_phone,
-  ':iv'=>$iv,
-  ':pwd'=>$pwd_hash,
-  ':pc'=>$province_code,
-  ':ac'=>$amphur_code,
-  ':hc'=>$hosp_code,
-  ':score'=>$rc['score'] ?? null,
-]);
+try {
+  $pdo->beginTransaction();
+
+  // (A) บันทึก register (ไม่มี iv/recaptcha_score อีกต่อไป)
+  $stmt = $pdo->prepare("
+    INSERT INTO register
+      (reg_prefix, reg_firstname, reg_lastname, reg_position, reg_cid, reg_email, reg_phone, hosp_code,
+      amphur_code, province_code, created_at)
+    VALUES
+      (:prefix, :f, :l, :pos, :idc, :em, :ph, :hc, :ac, :pc, NOW())
+  ");
+  $stmt->execute([
+    ':prefix'=>$prefix,
+    ':f'=>$enc_first,
+    ':l'=>$enc_last,
+    ':pos'=>$enc_pos,
+    ':idc'=>$enc_id,
+    ':em'=>$enc_email,
+    ':ph'=>$enc_phone,
+    ':hc'=>$hosp_code,
+    ':ac'=>$amphur_code,
+    ':pc'=>$province_code,
+  ]);
+  $registerId = (int)$pdo->lastInsertId();
+
+  // (B) บันทึก users (เพิ่ม iv, recaptcha_score, hosp_code)
+  $stmt2 = $pdo->prepare("
+    INSERT INTO users
+      (user_id, user_name, user_password, user_hcode, iv, recaptcha_score, user_created_at)
+    VALUES
+      (:rid, :u, :pwd, :iv, :score, :hc, NOW())
+  ");
+  $stmt2->execute([
+    ':rid'=>$registerId,
+    ':u'=>$username,
+    ':hc'=>$hosp_code,
+    ':pwd'=>$pwd_hash,
+    ':iv'=>$iv,
+    ':score'=>$rc['score'] ?? null,
+  ]);
+
+  $pdo->commit();
+} catch (Throwable $ex) {
+  $pdo->rollBack();
+  if (APP_DEBUG) badRequest('DB error: '.h($ex->getMessage()), 500);
+  badRequest('เกิดข้อผิดพลาดระหว่างบันทึกข้อมูล', 500);
+}
 
 // 9) มาร์ก attempt ล่าสุดเป็น success
-$pdo->prepare("UPDATE register_attempts SET success=1 WHERE ip=:ip ORDER BY id DESC LIMIT 1")
-    ->execute([':ip'=>$ip]);
+// $pdo->prepare("UPDATE register_attempts SET success=1 WHERE ip=:ip ORDER BY id DESC LIMIT 1")
+//     ->execute([':ip'=>$ip]);
 
 echo "สมัครสมาชิกสำเร็จ";
