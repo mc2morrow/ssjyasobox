@@ -2,7 +2,7 @@
 <html lang="th">
 <head>
   <meta charset="utf-8">
-  <title>ลงทะเบียนผู้ใช้</title>
+  <title><?php echo $page_title; ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="./assets/fontawesome/css/all.min.css" rel="stylesheet">

@@ -1,0 +1,7 @@
+[2025-08-10 00:46:08] [WARNING] require_once(classes/Encryption.php) [<a href='http://www.php.net/function.require-once'>function.require-once</a>]: Failed to open stream: No such file or directory in C:\laragon\www\ssjbox\user\dashboard.php on line 6
+Request: /ssjbox/user/dashboard.php
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Memory Usage: 4194304 bytes
+Peak Memory: 4194304 bytes
+--------------------------------------------------------------------------------

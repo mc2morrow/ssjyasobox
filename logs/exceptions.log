@@ -1,0 +1,341 @@
+[2025-08-09 22:46:43] [EXCEPTION] Class "Database" not found
+File: C:\laragon\www\ssjbox\classes\Session.php Line: 8
+Request: /ssjbox/
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\index.php(6): Session->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 22:46:43] [EXCEPTION] Class "Database" not found
+File: C:\laragon\www\ssjbox\classes\Session.php Line: 8
+Request: /ssjbox/
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\index.php(6): Session->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 22:49:25] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Session.php Line: 9
+Request: /ssjbox/
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\index.php(7): Session->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 22:54:16] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=34
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 22:54:24] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 22:54:27] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=34
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 22:54:47] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 22:54:48] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=80
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 22:54:50] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 22:54:51] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=50
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 23:00:33] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=34
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 23:03:09] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=34
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 23:23:57] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=34
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 23:26:04] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=34
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 23:27:27] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=34
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 23:30:01] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=34
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 23:31:10] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=34
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 23:40:11] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=34
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 23:41:05] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-09 23:42:09] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_amphur.php?province_code=34
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_amphur.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:14:48] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 10
+Request: /ssjbox/ajax/get_hospital.php?amphur_code=3401
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\get_hospital.php(13): Register->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:20:06] [EXCEPTION] Class "Encryption" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 125
+Request: /ssjbox/ajax/check_duplicate.php?email=theera%40gmail.c
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\check_duplicate.php(53): Register->isEmailExists('theera@gmail.c')
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:20:06] [EXCEPTION] Class "Encryption" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 125
+Request: /ssjbox/ajax/check_duplicate.php?email=theera%40gmail.co
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\check_duplicate.php(53): Register->isEmailExists('theera@gmail.co')
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:20:07] [EXCEPTION] Class "Encryption" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 125
+Request: /ssjbox/ajax/check_duplicate.php?email=theera%40gmail.com
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\check_duplicate.php(53): Register->isEmailExists('theera@gmail.co...')
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:36:26] [EXCEPTION] Class "Encryption" not found
+File: C:\laragon\www\ssjbox\classes\Session.php Line: 237
+Request: /ssjbox/login.php
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\login.php(181): Session->generateCSRFToken()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:38:04] [EXCEPTION] Class "Encryption" not found
+File: C:\laragon\www\ssjbox\classes\Session.php Line: 237
+Request: /ssjbox/login.php
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\login.php(181): Session->generateCSRFToken()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:42:07] [EXCEPTION] Class "Encryption" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 125
+Request: /ssjbox/ajax/check_duplicate.php?email=theera.ongart%40gmail.c
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\check_duplicate.php(53): Register->isEmailExists('theera.ongart@g...')
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:42:07] [EXCEPTION] Class "Encryption" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 125
+Request: /ssjbox/ajax/check_duplicate.php?email=theera.ongart%40gmail.ci
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\check_duplicate.php(53): Register->isEmailExists('theera.ongart@g...')
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:42:07] [EXCEPTION] Class "Encryption" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 125
+Request: /ssjbox/ajax/check_duplicate.php?email=theera.ongart%40gmail.c
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\check_duplicate.php(53): Register->isEmailExists('theera.ongart@g...')
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:42:08] [EXCEPTION] Class "Encryption" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 125
+Request: /ssjbox/ajax/check_duplicate.php?email=theera.ongart%40gmail.co
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\check_duplicate.php(53): Register->isEmailExists('theera.ongart@g...')
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:42:08] [EXCEPTION] Class "Encryption" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 125
+Request: /ssjbox/ajax/check_duplicate.php?email=theera.ongart%40gmail.com
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\check_duplicate.php(53): Register->isEmailExists('theera.ongart@g...')
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:42:45] [EXCEPTION] Class "Encryption" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 125
+Request: /ssjbox/ajax/check_duplicate.php?email=theera.ongart%40gmail.com
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\check_duplicate.php(53): Register->isEmailExists('theera.ongart@g...')
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:43:17] [EXCEPTION] Class "Encryption" not found
+File: C:\laragon\www\ssjbox\classes\Register.php Line: 125
+Request: /ssjbox/ajax/check_duplicate.php?email=theera.ongart%40gmail.com
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\ajax\check_duplicate.php(53): Register->isEmailExists('theera.ongart@g...')
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:45:10] [EXCEPTION] Class "Encryption" not found
+File: C:\laragon\www\ssjbox\classes\User.php Line: 82
+Request: /ssjbox/user/dashboard.php
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\user\dashboard.php(22): User->getUserProfile(5)
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:46:08] [EXCEPTION] Failed opening required 'classes/Encryption.php' (include_path='.;C:/laragon/etc/php/pear')
+File: C:\laragon\www\ssjbox\user\dashboard.php Line: 6
+Request: /ssjbox/user/dashboard.php
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:47:59] [EXCEPTION] Class "Logger" not found
+File: C:\laragon\www\ssjbox\classes\Session.php Line: 9
+Request: /ssjbox/user/profile.php
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\user\profile.php(8): Session->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:48:38] [EXCEPTION] Class "Encryption" not found
+File: C:\laragon\www\ssjbox\classes\User.php Line: 82
+Request: /ssjbox/user/profile.php
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\user\profile.php(18): User->getUserProfile(5)
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-08-10 00:50:22] [EXCEPTION] Class "Database" not found
+File: C:\laragon\www\ssjbox\classes\Session.php Line: 8
+Request: /ssjbox/logout.php
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Client IP: ::1
+Stack Trace:
+#0 C:\laragon\www\ssjbox\logout.php(7): Session->__construct()
+#1 {main}
+--------------------------------------------------------------------------------
